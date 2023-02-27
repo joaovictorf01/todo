@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TaskListComponent } from './task-list/task-list.component';
 import { TaskInputComponent } from './task-input/task-input.component';
-
+{ enableTracing: true } // <-- debugging purposes only
 @NgModule({
   declarations: [
     AppComponent,

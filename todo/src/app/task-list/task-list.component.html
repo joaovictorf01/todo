@@ -3,3 +3,4 @@
     {{ item.taskName }} - {{ item.done ? "Feito" : "Por fazer" }}
   </li>
 </ul>
+<button [routerLink]="inputTask" (click)="addTask()">Adicionar tarefa.</button>
