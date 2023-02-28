@@ -1,1 +1,9 @@
-<p>task-input works!</p>
+<h2>Adicione uma tarefa.</h2>
+<br />
+<form>
+  <label for="new-task">Adicionar tarefa:</label>
+  <input type="text" id="new-task" />
+  <button [routerLink]="['/task-list']" (click)="onAddTask(inputTask)">
+    Adicionar tarefa.
+  </button>
+</form>
